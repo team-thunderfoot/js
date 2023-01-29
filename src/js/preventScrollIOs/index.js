@@ -12,6 +12,7 @@ class PreventScrollIOs{
     }
     handleTouchMove(e){
         console.log('dont move')
+        alert(`don't move`)
         e.preventDefault();
     }
 }
